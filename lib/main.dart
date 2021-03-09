@@ -144,7 +144,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
                   children: [
                     TableRow(
                       children: [
-                        buildButton("C", 1, Colors.redAccent),
+                        buildButton("AC", 1, Colors.redAccent),
                         buildButton("⌫", 1, Colors.blue),
                         buildButton("÷", 1, Colors.blue),
 
@@ -192,17 +192,17 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
                   children: [
                     TableRow(
                       children: [
-                        buildButton("×", 1, Colors.black54),
+                        buildButton("×", 1, Colors.blue),
                       ]
                     ),
                     TableRow(
                         children: [
-                          buildButton("-", 1, Colors.black54),
+                          buildButton("-", 1, Colors.blue),
                         ]
                     ),
                     TableRow(
                         children: [
-                          buildButton("+", 1, Colors.black54),
+                          buildButton("+", 1, Colors.blue),
                         ]
                     ),
                     TableRow(
